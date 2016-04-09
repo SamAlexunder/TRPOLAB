@@ -6,9 +6,17 @@
 //  Copyright © 2016 Александр Эм. All rights reserved.
 //
 
-#ifndef bibl_h
-#define bibl_h
-
 #include <stdio.h>
+#include <stdlib.h>
 
-#endif /* bibl_h */
+double func1(double a, double b, double c);
+
+int main()
+{
+    double a, b, c;
+    
+    scanf("%lf%lf%lf", &a, &b, &c);
+    func1(a, b, c);
+    return 0;
+    
+}
