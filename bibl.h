@@ -14,8 +14,9 @@ double func1(double a, double b, double c);
 int main()
 {
     double a, b, c;
-    
-    scanf("%lf%lf%lf", &a, &b, &c);
+    printf("vvedite a: "); scanf("%lf", &a);
+    printf ("vvedite b: "); scanf("%lf", &b);
+    printf("vvedite c: "); scanf("%lf", &c);
     func1(a, b, c);
     return 0;
     

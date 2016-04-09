@@ -6,9 +6,10 @@
 //  Copyright © 2016 Александр Эм. All rights reserved.
 //
 
-#include <bibl.h>
+#include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include "bibl.h"
 
 double func1(double a, double b, double c)
 {
