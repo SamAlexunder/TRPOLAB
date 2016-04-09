@@ -27,7 +27,7 @@ double func1(double a, double b, double c)
     
     if(D < 0)
     {
-        printf("Kornei nema");
+        printf("Kornei net");
         return 0;
     }
     
